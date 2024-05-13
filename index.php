@@ -19,7 +19,7 @@
                     <label for="login" class="text-primary">Login</label>
                 </div>
                 <div class="col-sm-12 col-md-6 col-lg-10">
-                    <input type="text" name="login" id="login" class="form-control bg-primary text-light">
+                    <input type="text" name="login" id="login" class="form-control" placeholder="Ex: joaozinho@gmail.com">
                 </div>
             </div>
             <div class="row mb-3">
@@ -27,7 +27,7 @@
                     <label for="senha" class="text-primary">Senha</label>
                 </div>
                 <div class="col-sm-12 col-md-6 col-lg-10">
-                    <input type="password" name="senha" id="senha" class="form-control bg-primary text-light">
+                    <input type="password" name="senha" id="senha" class="form-control" placeholder="Ex: 123456789">
                 </div>
             </div>
             <div class="row mb-3">
@@ -42,5 +42,12 @@
     </div>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+    <script>
+        var Zaia = {
+            AgentURL: "https://platform.zaia.app/embed/chat/15063"
+        };
+    </script>
+    <!-- Widget Loader Script -->
+    <script src="https://cdn.zapgpt.com.br/widget-loader.js"></script>
 </body>
 </html>

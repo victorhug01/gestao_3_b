@@ -17,13 +17,14 @@
                 <h3 class="text-center">Cadastro de usuarios</h3>
             </div>
         </div>
-        <form action="#" method="post" class="form-control">
+        <form action="processa_user.php" method="post" class="form-control">
             <div class="row">
                 <div class="col-sm-12 col-md-6 col-lg-3">
                     <label for="nomeCompleto">Nome Completo</label>
                 </div>
                 <div class="col-sm-12 col-md-6 col-lg-9">
-                    <input type="text" placeholder="Informe seu nome (Igual RG)" name="nomeCompleto" id="nomeCompleto" class="form-control">
+                    <input type="text" placeholder="Informe seu nome (Igual RG)" name="nomeCompleto" id="nomeCompleto"
+                        class="form-control">
                 </div>
             </div>
             <div class="row">
@@ -61,10 +62,10 @@
             </div>
             <div class="row">
                 <div class="col-sm-12 col-md-6 col-lg-6">
-                    <button class="btn btn-large btn-success form-control">Cadastrar</button>
+                    <button class="btn btn-large btn-success form-control" name="cadastrar">Cadastrar</button>
                 </div>
                 <div class="col-sm-12 col-md-6 col-lg-6">
-                <button class="btn btn-large btn-secondary form-control">Limpar</button>
+                    <button class="btn btn-large btn-secondary form-control">Limpar</button>
                 </div>
             </div>
         </form>
